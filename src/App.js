@@ -1,10 +1,15 @@
 import React from 'react'
-import { Content, Footer, Header } from './func-coponent';
-
+import { Content, Footer, Header } from './func-coponent'
+import Calendar from './class-component';
 
 function App() {
   return (
-   [<Header/>,<Content/>,<Footer/>]
+   <>
+   <Header/>
+   <p><center><Calendar/></center></p>
+   <Content/>
+   <Footer/>
+   </>
     
   );
 }
