@@ -1,17 +1,9 @@
 import React from 'react'
-import { Content, Footer, Header } from './func-coponent'
-import Calendar from './class-component';
+import Button from './class-component';
 
 function App() {
-  return (
-   <>
-   <Header/>
-   <p><center><Calendar/></center></p>
-   <Content/>
-   <Footer/>
-   </>
-    
-  );
+  return <Button></Button>
+  
 }
 
 export default App;
