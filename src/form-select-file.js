@@ -22,7 +22,7 @@ export default function FormSelectFile() {
         alert(`ไฟล์ขนาดเกิน ${maxSizeValue} KB`);
         return;
       }
-    }
+    } 
 
     alert('Files OK');
   };
